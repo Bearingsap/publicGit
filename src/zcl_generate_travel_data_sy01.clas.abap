@@ -28,7 +28,7 @@ CLASS zcl_generate_travel_data_sy01 IMPLEMENTATION.
 
     INSERT ztravel_sy01 FROM TABLE @lt_travel_01.
 
-    out->write( |{ sy-dbcnt } travel entries inserted successfully!| ).
+    out->write( |{ sy-dbcnt } travel entries inserted successfully!123| ).
 
   ENDMETHOD.
 ENDCLASS.
